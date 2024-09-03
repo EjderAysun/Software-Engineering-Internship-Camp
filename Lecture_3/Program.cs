@@ -2,6 +2,7 @@
 using Lecture_3.OOP1;
 using Lecture_3.Collections;
 using Lecture_3.GenericsIntro;
+using Lecture_3.Homeworks;
 
 namespace Lecture_3 {
     class Program {
@@ -39,6 +40,17 @@ namespace Lecture_3 {
             List.ListUsage();
 
             MyList<string> myList = new MyList<string>();
+            myList.Add("ejder");
+            // Error: myList.Add(3);
+            
+            Console.WriteLine();
+            Console.WriteLine("HOMEWORKS");
+            Console.WriteLine("-----------------");
+            Homework.L3H1();
+            Homework.L3H2();
+            Homework.L3H3();
+            Homework.L3H4();  // just dictionary definition and a symbolic explanation
+            Homework.L3H5();
         } 
     }
 }
